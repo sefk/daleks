@@ -1,0 +1,30 @@
+I would like to build a simple video game called "Daleks". It is essentially a recreation of this classic game for the Mac: https://www.macintoshrepository.org/3913-daleks
+
+In this game you are a little guy surrounded by hostile robots. You win a level if you are able to survive and destroy all the robots. If you win the level, you go to a new level with more robots.
+
+The field of play is a two dimensional grid of locations. The robots and the player locations are random.
+
+In each turn, first the player acts. The player may either teleport or move one of 8 directions: north, south, east, west; or one of the four diagonal directions. Then the robots move. Each moves one of those eight directions. They choose their direction based on the shortest path to the player’s new location. The robots do not teleport.
+
+When two or more robots move onto the same location, they die and leave behind a pile. When a robot moves onto a pile, it dies and the pile remains. When all robots are dead, “Level Cleared” is shown and the player is prompted to press any key. Then the player moves on to the next level with more robots.
+
+Teleportation moves the player to a new random location on the board. The player starts with three teleports per level. The player cannot teleport when they have used up their three teleports. 
+
+Player movement can be done by either mouse or keyboard. When it's the player’s turn, display eight directional arrows around the player that they can use to move. If they want to use the keyboard, use the eight keys on the left side of the keyboard. The default movement keys are:
+
+North = w
+Northwest = q
+West = a
+Southwest = z
+South = x
+Southeast = c
+East = d
+Northeast = e
+
+There should be an option to let the user reconfigure these keys.
+
+The game should have three difficulty levels. The easy is a large board with a small number of robots, and hard is a smaller board with more robots.
+
+The game should have a small display showing the game status: level number, move number in that level, number of robots remaining, number of teleports remaining. The status display should not cover part of the game board.
+
+

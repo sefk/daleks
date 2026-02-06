@@ -1,0 +1,77 @@
+# Daleks
+
+A browser-based recreation of the classic Mac game **Daleks** — a turn-based strategy game where you must outsmart hostile robots by luring them into collisions with each other.
+
+**By Sef Kloninger** ([sefklon@gmail.com](mailto:sefklon@gmail.com))
+
+Coded entirely on [Replit](https://replit.com) using Replit Agent.
+
+## Gameplay
+
+- You are placed on a 2D grid surrounded by robots (Daleks)
+- Each turn, you move one step in any of 8 directions (or stay in place)
+- After you move, every robot takes one step toward you
+- When two robots collide, they are destroyed and leave behind a scrap pile
+- Robots that walk into scrap piles are also destroyed
+- Clear all robots to advance to the next level
+- You have 3 teleports per level to escape tight situations — but you can't control where you land
+- If a robot reaches your position, it's game over
+
+## Features
+
+- Three difficulty levels (Easy, Medium, Hard) with different board sizes and robot counts
+- Customizable keyboard bindings saved between sessions
+- Smooth movement animations for player and robots
+- Teleportation effect with expanding/collapsing circle animations
+- Custom SVG sprites: running stick figure player, Dalek-inspired robots, scrap pile debris
+
+## How It Was Made
+
+### Initial Prompt
+
+> Build a browser-based recreation of the classic Mac game "Daleks". It's a 2D grid-based, turn-based strategy game where the player must survive hostile robots by maneuvering them into collisions with each other.
+
+### Implementation Plan
+
+The agent broke the project into these steps:
+
+1. **Game state and logic** — Zustand store managing player position, robot AI (chase the player by shortest path), collision detection (robot-robot collisions create piles, robots hitting piles die), level progression
+2. **Grid rendering** — React component rendering a 2D cell grid with directional arrows showing available moves
+3. **Main menu and difficulty selection** — Title screen with Easy/Medium/Hard options affecting board size and robot count
+4. **Status bar** — Displays current level, move count, robots remaining, teleports left
+5. **Settings screen** — Configurable key bindings with localStorage persistence
+
+### Refinement Steps
+
+After the initial implementation, the game was refined through a series of conversational requests:
+
+1. **"Add a way for the player to stay in place"** — Added a "stay" action so the player can skip their turn while robots advance, useful for luring robots into each other
+2. **"Replace emojis with custom sprites"** — Created SVG components for a running stick figure (player), Dalek-style robot with dome/eye stalk/bumpy base, and scrap pile debris
+3. **"Fix bug: check for player death before robot collisions"** — Fixed the collision logic so that if a robot moves onto the player's square, the player dies even if that robot would also collide with another robot
+4. **"Add animations"** — Restructured rendering to use absolutely positioned entities with CSS transitions for smooth movement; added teleport effect with expanding circles at the departure point and collapsing circles at the arrival
+5. **"Don't draw arrows over piles"** — Fixed directional arrows to not appear on cells occupied by scrap piles
+
+## Tech Stack
+
+- **Frontend**: React + TypeScript
+- **State Management**: Zustand
+- **Styling**: Custom CSS
+- **Server**: Express (serving the Vite-built frontend)
+- **No database**: Pure client-side game
+
+## Controls (defaults)
+
+| Action    | Key |
+|-----------|-----|
+| North     | W   |
+| South     | X   |
+| East      | D   |
+| West      | A   |
+| NE        | E   |
+| NW        | Q   |
+| SE        | C   |
+| SW        | Z   |
+| Stay      | S   |
+| Teleport  | T   |
+
+All key bindings can be customized in the Settings screen.
