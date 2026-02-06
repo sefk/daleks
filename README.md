@@ -2,6 +2,8 @@
 
 A browser-based recreation of the classic Mac game **Daleks** — a turn-based strategy game where you must outsmart hostile robots by luring them into collisions with each other.
 
+You can get a sense of the original here: https://www.youtube.com/watch?v=BUClNr-0c0o
+
 **By Sef Kloninger** ([sefklon@gmail.com](mailto:sefklon@gmail.com))
 
 Coded entirely on [Replit](https://replit.com) using Replit Agent.
@@ -27,7 +29,13 @@ Coded entirely on [Replit](https://replit.com) using Replit Agent.
 
 ## How It Was Made
 
-### Initial Prompt
+Some notes and screenshots showing the construction process were captured in [a Google doc][1].
+
+[1]: https://docs.google.com/document/d/1vH1T6AsQGkFoSTNeTPfJikA9Kx4L4hfyN-cpjcS-bQs/edit?tab=t.0
+
+Going from nothing to a working, published prototype took about two hours $10.05.
+
+### Replit's Restatement of the Prompt
 
 > Build a browser-based recreation of the classic Mac game "Daleks". It's a 2D grid-based, turn-based strategy game where the player must survive hostile robots by maneuvering them into collisions with each other.
 
@@ -75,3 +83,4 @@ After the initial implementation, the game was refined through a series of conve
 | Teleport  | T   |
 
 All key bindings can be customized in the Settings screen.
+
