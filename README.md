@@ -16,6 +16,9 @@ Conversation with AI][t42], Stanford Continuing Studies Winter 2026. Some notes
 and screenshots taken during construction are [here][notes]. Going from nothing
 to a working, published prototype took about two hours and ten dollars.
 
+<img src="screenshots/intro-ss.png" alt="Intro Screen" width=50% align=left>
+<img src="screenshots/play-ss.png" alt="Gameplay" width=50%>
+
 [Chase game]: https://en.wikipedia.org/wiki/Chase_(video_game)
 [Daleks game]: https://www.macintoshrepository.org/3230-classic-daleks
 [demo video]: https://www.youtube.com/watch?v=BUClNr-0c0o
