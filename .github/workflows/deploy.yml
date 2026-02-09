@@ -31,9 +31,7 @@ jobs:
         run: npm ci
 
       - name: Build with base path
-        run: npx vite build --base=/daleks/ client --outDir=../dist/public
-        env:
-          GITHUB_PAGES: 'true'
+        run: npx vite build --base=/daleks/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
