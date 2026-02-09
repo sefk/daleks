@@ -8,8 +8,8 @@ this [demo video].
 Owner: Sef Kloninger ([email](mailto:sefklon@gmail.com), [personal website]).
 
 This was coded entirely on [Replit]. The only part that is my work is
-the first section of this README and the TODO file. It was initially
-[hosted there] too but it's likely down now.
+the first section of this README and the TODO file. It is hosted at 
+[https://sef.kloninger.com/daleks].
 
 This is the week one exercise for [Vibe Coding: Building Software in
 Conversation with AI][t42], Stanford Continuing Studies Winter 2026. Some notes
@@ -25,7 +25,6 @@ to a working, published prototype took about two hours and ten dollars.
 [email]: mailto:sefklon@gmail.com
 [personal website]: https://sef.kloninger.com/
 [Replit]: https://replit.com
-[hosted there]: https://daleks-game.replit.app
 [t42]: https://continuingstudies.stanford.edu/courses/professional-and-personal-development/vibe-coding-building-software-in-conversation-with-ai/20252_TECH-42
 [notes]: https://docs.google.com/document/d/1vH1T6AsQGkFoSTNeTPfJikA9Kx4L4hfyN-cpjcS-bQs/edit?tab=t.0
 
