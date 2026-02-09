@@ -1,12 +1,32 @@
 # Daleks
 
-A browser-based recreation of the classic Mac game **Daleks** — a turn-based strategy game where you must outsmart hostile robots by luring them into collisions with each other.
+Daleks is a browser-based [chase game] -- a turn-based strategy game where you
+must outsmart hostile robots by luring them into collisions with each other.
+This particular one is modeled after the classic [Daleks game] on Mac OS, see
+this [demo video].
 
-You can get a sense of the original here: https://www.youtube.com/watch?v=BUClNr-0c0o
+Owner: Sef Kloninger ([email](mailto:sefklon@gmail.com), [personal website]).
 
-**By Sef Kloninger** ([sefklon@gmail.com](mailto:sefklon@gmail.com))
+This was coded entirely on [Replit]. The only part that is my work is
+the first section of this README and the TODO file. It is hosted at 
+https://sef.kloninger.com/daleks.
 
-Coded entirely on [Replit](https://replit.com) using Replit Agent.
+This is the week one exercise for [Vibe Coding: Building Software in
+Conversation with AI][t42], Stanford Continuing Studies Winter 2026. Some notes
+and screenshots taken during construction are [here][notes]. Going from nothing
+to a working, published prototype took about two hours and ten dollars.
+
+<img src="screenshots/intro-ss.png" alt="Intro Screen" width=50% align=left>
+<img src="screenshots/play-ss.png" alt="Gameplay" width=50%>
+
+[Chase game]: https://en.wikipedia.org/wiki/Chase_(video_game)
+[Daleks game]: https://www.macintoshrepository.org/3230-classic-daleks
+[demo video]: https://www.youtube.com/watch?v=BUClNr-0c0o
+[email]: mailto:sefklon@gmail.com
+[personal website]: https://sef.kloninger.com/
+[Replit]: https://replit.com
+[t42]: https://continuingstudies.stanford.edu/courses/professional-and-personal-development/vibe-coding-building-software-in-conversation-with-ai/20252_TECH-42
+[notes]: https://docs.google.com/document/d/1vH1T6AsQGkFoSTNeTPfJikA9Kx4L4hfyN-cpjcS-bQs/edit?tab=t.0
 
 ## Gameplay
 
@@ -27,13 +47,6 @@ Coded entirely on [Replit](https://replit.com) using Replit Agent.
 - Teleportation effect with expanding/collapsing circle animations
 - Custom SVG sprites: running stick figure player, Dalek-inspired robots, scrap pile debris
 
-## How It Was Made
-
-Some notes and screenshots showing the construction process were captured in [a Google doc][1].
-
-[1]: https://docs.google.com/document/d/1vH1T6AsQGkFoSTNeTPfJikA9Kx4L4hfyN-cpjcS-bQs/edit?tab=t.0
-
-Going from nothing to a working, published prototype took about two hours $10.05.
 
 ### Replit's Restatement of the Prompt
 
