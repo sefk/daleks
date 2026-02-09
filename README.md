@@ -1,9 +1,9 @@
 # Daleks
 
-D browser-based [chase game] -- a turn-based strategy game where you must
-outsmart hostile robots by luring them into collisions with each other. This
-particular one is modeled after the classic [Daleks game] on Mac OS, see this
-[demo video].
+Daleks is a browser-based [chase game] -- a turn-based strategy game where you
+must outsmart hostile robots by luring them into collisions with each other.
+This particular one is modeled after the classic [Daleks game] on Mac OS, see
+this [demo video].
 
 Owner: Sef Kloninger ([email](mailto:sefklon@gmail.com), [personal website]).
 
