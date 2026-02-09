@@ -34,4 +34,4 @@
 - Mobile support
     - iOS
     - Android
-- Host somewhere besides replit
+    - Native web look (and play) better without mouse and keyboard
