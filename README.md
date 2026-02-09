@@ -1,15 +1,15 @@
 # Daleks
 
-A browser-based [Chase game] -- a turn-based strategy game where you must
+D browser-based [chase game] -- a turn-based strategy game where you must
 outsmart hostile robots by luring them into collisions with each other. This
 particular one is modeled after the classic [Daleks game] on Mac OS, see this
 [demo video].
 
 Owner: Sef Kloninger ([email](mailto:sefklon@gmail.com), [personal website]).
 
-This was coded entirely on [Replit]. This includes the whole README file after
-this introductory section. It was initially [hosted there] too but it's likely
-down now.
+This was coded entirely on [Replit]. The only part that is my work is
+the first section of this README and the TODO file. It was initially
+[hosted there] too but it's likely down now.
 
 This is the week one exercise for [Vibe Coding: Building Software in
 Conversation with AI][t42], Stanford Continuing Studies Winter 2026. Some notes
