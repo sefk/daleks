@@ -48,6 +48,13 @@ export default function MainMenu() {
           <li>Use teleport to escape (3 per level)</li>
         </ul>
       </div>
+
+      <div className="menu-notice">
+        This app was built using Replit. For more information about why and how, see{" "}
+        <a href="https://github.com/sefk/daleks" target="_blank" rel="noopener noreferrer">
+          github.com/sefk/daleks
+        </a>
+      </div>
     </div>
   );
 }
