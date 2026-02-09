@@ -9,7 +9,7 @@ Owner: Sef Kloninger ([email](mailto:sefklon@gmail.com), [personal website]).
 
 This was coded entirely on [Replit]. The only part that is my work is
 the first section of this README and the TODO file. It is hosted at 
-[https://sef.kloninger.com/daleks].
+https://sef.kloninger.com/daleks.
 
 This is the week one exercise for [Vibe Coding: Building Software in
 Conversation with AI][t42], Stanford Continuing Studies Winter 2026. Some notes
