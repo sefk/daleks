@@ -7,25 +7,33 @@ this [demo video].
 
 Owner: Sef Kloninger ([email](mailto:sefklon@gmail.com), [personal website]).
 
-This was coded entirely on [Replit]. The only part that is my work is
-the first section of this README and the TODO file. It is hosted at 
-https://sef.kloninger.com/daleks.
-
-This is the week one exercise for [Vibe Coding: Building Software in
-Conversation with AI][t42], Stanford Continuing Studies Winter 2026. Some notes
-and screenshots taken during construction are [here][notes]. Going from nothing
-to a working, published prototype took about two hours and ten dollars.
-
-<img src="screenshots/intro-ss.png" alt="Intro Screen" width=50% align=left>
-<img src="screenshots/play-ss.png" alt="Gameplay" width=50%>
+An instance of the game is running at https://sef.kloninger.com/daleks.
 
 [Chase game]: https://en.wikipedia.org/wiki/Chase_(video_game)
 [Daleks game]: https://www.macintoshrepository.org/3230-classic-daleks
 [demo video]: https://www.youtube.com/watch?v=BUClNr-0c0o
 [email]: mailto:sefklon@gmail.com
 [personal website]: https://sef.kloninger.com/
+
+## Colophon
+
+This was coded entirely on [Replit]. The only part that is my work is
+these first two sections of this README and the TODO file. GEMINI.md was 
+added later by [Gemini], with my work only the "Constraints" section at
+the end.
+
+This is the week one exercise for [Vibe Coding: Building Software in
+Conversation with AI][class], Stanford Continuing Studies Winter 2026. Some notes
+and screenshots taken during construction are [here][notes]. Going from nothing
+to a working, published prototype took about two hours and ten dollars.
+
+<img src="screenshots/intro-ss.png" alt="Intro Screen" width=50% align=left>
+<img src="screenshots/play-ss.png" alt="Gameplay" width=50%>
+
+
 [Replit]: https://replit.com
-[t42]: https://continuingstudies.stanford.edu/courses/professional-and-personal-development/vibe-coding-building-software-in-conversation-with-ai/20252_TECH-42
+[Gemini]: https://geminicli.com/
+[class]: https://continuingstudies.stanford.edu/courses/professional-and-personal-development/vibe-coding-building-software-in-conversation-with-ai/20252_TECH-42
 [notes]: https://docs.google.com/document/d/1vH1T6AsQGkFoSTNeTPfJikA9Kx4L4hfyN-cpjcS-bQs/edit?tab=t.0
 
 ## Gameplay
